@@ -1,0 +1,5 @@
+git add CNAME
+git status
+Changes to be committed:
+  new file:   CNAME
+git commit -m "Añadido archivo CNAME con el dominio personalizado"
