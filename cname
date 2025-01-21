@@ -3,3 +3,7 @@ git status
 Changes to be committed:
   new file:   CNAME
 git commit -m "Añadido archivo CNAME con el dominio personalizado"
+[main b1234cd] Añadido archivo CNAME con el dominio personalizado
+ 1 file changed, 1 insertion(+)
+ create mode 100644 CNAME
+git push origin main
