@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trumps World</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', 'Arial', sans-serif;
+            line-height: 1.6;
+            text-align: center;
+            background-color: #f0f8ff;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background: url('https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_the_United_States.svg') center/cover no-repeat;
+            color: white;
+            padding: 50px 20px;
+            text-shadow: 2px 2px #000;
+        }
+        header h1 {
+            font-size: 4rem;
+            font-family: 'Impact', sans-serif;
+        }
+        header h1 img {
+            vertical-align: middle;
+            width: 60px;
+            height: auto;
+        }
+        header h2 {
+            font-size: 1.8rem;
+            font-family: 'Arial Black', sans-serif;
+            margin-top: 10px;
+        }
+        section {
+            margin: 20px auto;
+            max-width: 800px;
+        }
+        h2 {
+            color: #ff4500;
+            text-shadow: 1px 1px #000;
+        }
+        .welcome-message {
+            font-size: 1.2rem;
+            margin: 20px;
+        }
+        .index {
+            margin: 20px auto;
+            padding: 15px;
+            background: #ffefd5;
+            border: 2px solid #ff4500;
+            border-radius: 10px;
+            text-align: left;
+            max-width: 600px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .index a {
+            display: block;
+            margin: 10px 0;
+            color: #ff4500;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .index a:hover {
+            text-decoration: underline;
+        }
+        .meme, .photo, .reward {
+            margin: 10px;
+            border: 3px solid #ff6347;
+            border-radius: 10px;
+            padding: 10px;
+            display: inline-block;
+            background: #fff;
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+        }
+        .roulette, .how-it-works {
+            margin-top: 30px;
+            padding: 20px;
+            border: 3px solid #ff4500;
+            border-radius: 15px;
+            background: #fff8dc;
+            box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.3);
+        }
+        button {
+            padding: 10px 20px;
+            background: linear-gradient(to right, #ff4500, #ff6347);
+            color: #fff;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 1rem;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+        }
+        button:hover {
+            background: linear-gradient(to right, #ff6347, #ff4500);
+            box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.4);
+        }
+        ol {
+            text-align: left;
+            margin: 0 auto;
+            padding: 0 20px;
+            font-size: 1.1rem;
+        }
+        ol li {
+            margin-bottom: 10px;
+        }
+        img {
+            border-radius: 10px;
+            max-width: 100%;
+        }
+        .emoji {
+            font-size: 1.5rem;
+            margin-right: 5px;
+        }
+        .footer {
+            margin-top: 30px;
+            font-size: 0.9rem;
+            color: #555;
+        }
+        .footer a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        .twitter-icon {
+            width: 30px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/56/Donald_Trump_official_portrait.jpg" alt="Donald Trump"> 
+            Trumps World
+        </h1>
+        <h2>🇺🇸 Make America Great Again 🇺🇸</h2>
+    </header>
+
+    <div class="welcome-message">
+        <p>Welcome to the official Trump-themed web experience! Explore and enjoy the best memes, pictures, and games inspired by Donald Trump.</p>
+    </div>
+
+    <div class="index">
+        <h2>📖 What to do in Trumps World</h2>
+        <a href="#memes">😂 Best Donald Trump Memes</a>
+        <a href="#how-it-works">🤔 How it Works</a>
+        <a href="#roulette">🎰 Spin the Trump Roulette!</a>
+        <a href="#rewards">🏆 Trump Pictures You Can Win</a>
+    </div>
+
+    <section id="memes">
+        <h2>😂 Best Donald Trump Memes</h2>
+        <div class="meme">
+            <button onclick="window.open('https://www.vox.com/2016/10/7/13205842/trump-secret-recording-women', '_blank')">GRAB'EM BY THE PUSSY</button>
+        </div>
+        <div class="meme">
+            <button onclick="window.open('https://www.politico.com/video/2016/01/donald-trump-supporter-its-not-a-dog-its-hillary-040247', '_blank')">It's not a dog, It's Hillary</button>
+        </div>
+        <div class="meme">
+            <button onclick="window.open('https://www.youtube.com/watch?v=NPI8BivBTAg', '_blank')">Great job, Joe</button>
+        </div>
+    </section>
+
+    <section id="how-it-works" class="how-it-works">
+        <h2>🤔 How it Works</h2>
+        <p>Each Trump Picture is uniquely generated from your wallet address and an optional unique ID you provide. Here’s a simple breakdown:</p>
+        <ol>
+            <li><span class="emoji">🔗</span><strong>Connect Wallet:</strong> Use your Phantom wallet to connect securely.</li>
+            <li><span class="emoji">🆔</span><strong>ID Input:</strong> Enter a unique ID or simply use your wallet address.</li>
+            <li><span class="emoji">🔄</span><strong>Hashing Process:</strong> Your wallet address and ID transform into a numerical value using our special hashing function.</li>
+            <li><span class="emoji">🎰</span><strong>Open Roulette:</strong> Click on the free spins to access the roulette.</li>
+            <li><span class="emoji">🏆</span><strong>WIN:</strong> The funniest and the most exclusive photos of Trump.</li>
+        </ol>
+    </section>
+
+    <section id="roulette">
+        <h2>🎰 Spin the Trump Roulette!</h2>
+        <div class="roulette">
+            <p>Connect your Phantom wallet to play and win funny Trump photos! 😄</p>
+            <button id="connect-wallet">🔗 Connect Wallet</button>
+            <button id="spin-roulette" disabled>🎲 Free Spins</button>
+        </div>
+    </section>
+
+    <section id="rewards">
+        <h2>🏆 Trump Pictures You Can Win</h2>
+        <div class="reward">
+            <h3>🐱 Kity Trump</h3>
+            <img src="/mnt/data/kity_trump.jpg" alt="Kity Trump">
+        </div>
+        <div class="reward">
+            <h3>🍑 Ass Trump</h3>
+            <img src="/mnt/data/ass_trump.jpg" alt="Ass Trump">
+        </div>
+        <div class="reward">
+            <h3>🧱 Trum Wall</h3>
+            <img src="/mnt/data/trum_wall.jpg" alt="Trum Wall">
+        </div>
+        <div class="reward">
+            <h3>🍩 Donut Trump</h3>
+            <img src="/mnt/data/donut_trump.jpg" alt="Donut Trump">
+        </div>
+        <div class="reward">
+            <h3>🍩 Hommer Trump Loves Donuts</h3>
+            <img src="/mnt/data/hommer_trump.jpg" alt="Hommer Trump Loves Donuts">
+        </div>
+        <div class="reward">
+            <h3>💈 Donald Trump Funny Hair</h3>
+            <img src="/mnt/data/funny_hair.jpg" alt="Donald Trump Funny Hair">
+        </div>
+        <p>If you want to discover more, spin the roulette! 🎲</p>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 Trump Roulette. All rights reserved.</p>
+        <a href="https://x.com/_CultOfTrump_" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/60/Twitter_Logo_as_of_2021.svg" alt="Twitter" class="twitter-icon">
+        </a>
+    </footer>
+
+    <script>
+        let walletConnected = false;
+
+        document.getElementById('connect-wallet').addEventListener('click', async () => {
+            try {
+                if (window.solana && window.solana.isPhantom) {
+                    const wallet = await window.solana.connect();
+                    console.log('Wallet connected:', wallet);
+                    alert('Wallet connected!');
+                    walletConnected = true;
+                    document.getElementById('spin-roulette').disabled = false;
+                } else {
+                    alert('Phantom Wallet not found! Please install it at https://phantom.app/');
+                }
+            } catch (error) {
+                console.error('Connection failed:', error);
+            }
+        });
+
+        document.getElementById('spin-roulette').addEventListener('click', () => {
+            if (walletConnected) {
+                alert('Spinning the roulette! Good luck!');
+                // Add roulette logic here
+            } else {
+                alert('Please connect your wallet first!');
+            }
+        });
+    </script>
+</body>
+</html>
